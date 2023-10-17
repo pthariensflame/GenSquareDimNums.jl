@@ -4,7 +4,7 @@ CurrentModule = GenSquareDimNums
 
 # GenSquareDimNums
 
-Documentation for [GenSquareDimNums](https://github.com/Laine Taffin Altman/GenSquareDimNums.jl).
+Documentation for [GenSquareDimNums](https://github.com/pthariensflame/GenSquareDimNums.jl).
 
 ```@index
 ```

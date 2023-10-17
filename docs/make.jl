@@ -6,11 +6,11 @@ DocMeta.setdocmeta!(GenSquareDimNums, :DocTestSetup, :(using GenSquareDimNums); 
 makedocs(;
     modules=[GenSquareDimNums],
     authors="Laine Taffin Altman <alexanderaltman@me.com> and contributors",
-    repo="https://github.com/Laine Taffin Altman/GenSquareDimNums.jl/blob/{commit}{path}#{line}",
+    repo="https://github.com/pthariensflame/GenSquareDimNums.jl/blob/{commit}{path}#{line}",
     sitename="GenSquareDimNums.jl",
     format=Documenter.HTML(;
         prettyurls=get(ENV, "CI", "false") == "true",
-        canonical="https://Laine Taffin Altman.github.io/GenSquareDimNums.jl",
+        canonical="https://pthariensflame.github.io/GenSquareDimNums.jl",
         edit_link="main",
         assets=String[],
     ),
@@ -20,6 +20,6 @@ makedocs(;
 )
 
 deploydocs(;
-    repo="github.com/Laine Taffin Altman/GenSquareDimNums.jl",
+    repo="github.com/pthariensflame/GenSquareDimNums.jl",
     devbranch="main",
 )

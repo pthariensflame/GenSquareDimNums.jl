@@ -1,6 +1,7 @@
 using GenSquareDimNums
+using Statistics
 using Test
 
 @testset "GenSquareDimNums.jl" begin
-    # Write your tests here.
+    
 end
