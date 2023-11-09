@@ -1,9 +1,9 @@
 module GenSquareDimNums
 
-struct GenSquareDimNum{Scalar <: Real, NegOneAxes, ZeroAxes, PosOneAxes} <: Number
-    value_map::Any
-end
+include("definitions.jl")
+include("conversions.jl")
+include("operations.jl")
 
-export GenSquareDimSum
+export GSDNum, axial_sets, AxialSet, AxialSets
 
 end
